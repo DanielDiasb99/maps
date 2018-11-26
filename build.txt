@@ -1,0 +1,8 @@
+name = 'Build'
+version = '1.0'
+author = 'Daniel Dias'
+description = ('[Brasil] Ace of Spades BUILD MAP')
+
+def gen_script(basename, seed):
+    from pyspades.mapmaker import generate_classic
+    return generate_classic(seed)
